@@ -24,7 +24,7 @@ print(bulb.brightness)
 if bulb.is_dimmable:
     bulb.brightness = 50
 
-bulb.turn_off()
+bulb.turn_on()
 
 #print("Hardware: %s" % pf(bulb.hw_info))
 #print("Full sysinfo: %s" % pf(bulb.get_sysinfo()))  # this prints lots of information about the device
